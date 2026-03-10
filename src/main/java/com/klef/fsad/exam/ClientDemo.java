@@ -15,7 +15,7 @@ public class ClientDemo
 
         Transaction tx = s.beginTransaction();
 
-        Delivery d = new Delivery("Tulasi", "10-03-2026", "Delivered", "Hyderabad");
+        Delivery d = new Delivery("Tulasi", "10-03-2026", "Delivered", "Hyderabad");00.0
 
         s.persist(d);
 
